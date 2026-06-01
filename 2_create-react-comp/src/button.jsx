@@ -1,4 +1,4 @@
-function buttonn(){
+function Buttonn(){
     return <button>learning</button>
 }
-export default buttonn
+export default Buttonn;
