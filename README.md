@@ -5,7 +5,7 @@ Learning React from scratch and documenting my progress.
 ## Topics Covered
 
 - [x] Components
-- [ ] JSX
+- [x] JSX
 - [ ] Props
 - [ ] useState
 - [ ] useEffect
