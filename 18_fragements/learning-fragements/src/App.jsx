@@ -4,9 +4,9 @@ import './App.css'
 function App() {
 
   return (
-    <React.Fragment>
+    <React.Fragment id="main">
     <h1>Healthy Food Items</h1>
-    <ul class="list-group">
+    <ul class="list-group list">
   <li class="list-group-item">Vegetables</li>
   <li class="list-group-item">Fruits</li>
   <li class="list-group-item">Whole Grains</li>

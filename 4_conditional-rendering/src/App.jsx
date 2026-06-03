@@ -8,11 +8,12 @@ function App() {
     { id: 6, name: "Ghee" },
   ];
   //let foodItems =[];
-//conditional rendering if-else
+//conditional rendering using Ternary Operator
   
   return (
     <>
       <h1>Healthy foods to eat</h1>
+      
       
       {foodItems.length===0 ? <h3>Empty list</h3> : null}
       <ul className="list-group">
