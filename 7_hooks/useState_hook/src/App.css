@@ -1,0 +1,9 @@
+.container{
+    justify-content: center;
+    align-items: center;
+}
+#para{
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
