@@ -1,21 +1,11 @@
-import { useState } from "react";
+import ShowHide from "./components/ShowHide";
 
-const ShowHide = () => {
-  const [show, change] = useState(true);
-
-  return (
+function App(){
+   return (
     <>
-      {show && <p>Hello Kartik</p>}
-
-      <button
-        onClick={() => {
-          change(!show);
-        }}
-      >
-        Hide/Show
-      </button>
+      <ShowHide></ShowHide>
     </>
   );
-};
+}
 
-export default ShowHide;
+export default App;

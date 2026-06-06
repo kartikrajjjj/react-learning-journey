@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#heading{
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#btn:hover{
+    background-color: rgb(43, 88, 223);
+}
+
+#text{
+    margin-top: 20px;
+    font-size: 20px;
+}

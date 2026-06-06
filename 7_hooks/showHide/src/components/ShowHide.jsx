@@ -1,20 +1,22 @@
 import { useState } from "react";
-
+import './ShowHide.css'
 const ShowHide = () => {
   const [show, change] = useState(true);
 
   return (
-    <>
-      {show && <p>Hello Kartik</p>}
+       <div className="main"> 
+       <p id='heading'>Click button to hide or show text</p>
+      {show && <p id='text'>Hello Kartik</p>}
 
-      <button
+      <button className="btn"
         onClick={() => {
           change(!show);
         }}
       >
         Hide/Show
       </button>
-    </>
+      </div>
+    
   );
 };
 
