@@ -21,7 +21,7 @@ function App() {
           <li key={item.id} className="list-group-item">
             {item.name}
           </li>
-        ))}
+        ))} 
       </ul>
     </>
   );
