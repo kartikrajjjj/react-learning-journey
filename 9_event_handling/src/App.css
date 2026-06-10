@@ -1,0 +1,25 @@
+*{
+  margin: 5px;
+  font-size: 20px;
+  background-color: antiquewhite;
+}
+h1{
+  text-decoration: underline;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+#main{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  display: block;
+  padding: 2rem;
+} 
+
+#form,
+#para,
+#btn {
+  margin: 10px;
+  border: 1px solid black;
+}
+
