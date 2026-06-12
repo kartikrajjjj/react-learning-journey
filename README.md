@@ -8,7 +8,7 @@ Learning React from scratch and documenting my progress.
 - [x] JSX
 - [x] Props
 - [x] useState
-- [ ] useEffect
+- [x] useEffect
 - [x] Bootstrap
 - [ ] React Router
 - [ ] Redux
