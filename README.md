@@ -10,7 +10,7 @@ Learning React from scratch and documenting my progress.
 - [x] useState
 - [x] useEffect
 - [x] Bootstrap
-- [ ] React Router
+- [x] React Router
 - [ ] Redux
 
 ## Goal
